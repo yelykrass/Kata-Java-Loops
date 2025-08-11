@@ -13,4 +13,11 @@ public class MultiplicationTable {
         }
         return table;
     }
+
+    public void printTable(List<String> table) {
+        for (String row : table) {
+            System.out.println(row);
+        }
+    }
+
 }
